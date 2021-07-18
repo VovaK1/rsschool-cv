@@ -8,11 +8,9 @@
 
 
 ## About me 
----
 By my first education I am a specialist in international relations, but at some point in my life I realized that I like programming. So now I'm a self-taught Web Developer specialized in JavaScript. I have done several projects. You can see them on my [Github account](https://github.com/VovaK1). I like this direction and want to continue to study and improve my knowledge. 
 
 ## Skills
----
 - HTML/HTML5
 - Methodology BEM
 - CSS/CSS3
@@ -22,11 +20,9 @@ By my first education I am a specialist in international relations, but at some 
 - Git & GitHub Pages
 
 ## Education
----
 Lesia Ukrainka East European National University, faculty __"International Relations, Public Communications and Regional Studies"__ 2016 - 2021
 
 ## Courses
----
 Passed 3 courses at _excellent_ in [Loftschool](https://loftschool.com/)
 
 My diplomas:
@@ -35,7 +31,6 @@ My diplomas:
 - [Complete JavaScript Course](https://loftschool.com/diploma/YZ1611090519/en/pdf)
 
 ## Languages 
----
 - Ukrainian (Native).
 - Russian (Second language).
 - English (Upper Intermediate). I studied at the university entirely in English. 
