@@ -11,14 +11,128 @@
 <body>
   <div class="wrapper">
     <div class="container">
+      <header class="header">
+        <div class="header__col header__col--right">
+          <h1 class="header__title"><b>Volodymyr</b> Kozak</h1>
+          <h3 class="header__subtitle">Junior Javascript Developer</h3>
+        </div>
+        <div class="header__col header__col--middle">
+          <img src="./images/user.png" alt="My photo" class="header__img" width="120" height="120">
+        </div>
+        <div class="header__col header__col--left">
+          <ul class="header__chars chars__list">
+            <li class="chars__item char">
+              <a href="https://goo.gl/maps/aLjjvJifZG57S7GBA" target="_blank" class="char__link">
+                <svg class="icon">
+                  <use xlink:href="./images/sprite.svg#location"></use>
+                </svg>
+                <div class="chars__text">Ukraine, Lutsk</div>
+              </a>
+            </li>
+            <li class="chars__item char">
+              <a href="tel:+380505540833" class="char__link">
+                <svg class="icon">
+                  <use xlink:href="./images/sprite.svg#phone"></use>
+                </svg>
+                <div class="chars__text">+38 050 55 40 833</div>
+              </a>
+            </li>
+            <li class="chars__item char">
+              <a href="mailto:volodymyr.kozak111@gmail.com" class="char__link">
+                <svg class="icon">
+                  <use xlink:href="./images/sprite.svg#email"></use>
+                </svg>
+                <div class="chars__text">volodymyr.kozak111@gmail.com</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
       <main class="main">
-        <header class="main__header">
-          <h1 class="main__title"><b>Volodymyr</b> Kozak</h1>
-          <h3 class="main__subtitle">Junior Javascript Developer</h3>
-        </header>
+        <section class="section about">
+          <h3 class="section__title">About me</h3>
+          <div class="about__text">
+            <p>
+              By my first education I am a specialist in international relations, but at some point in my life I realized that I like programming. So now I’m a self-taught Web Developer specialized in JavaScript. I have done several projects. You can see them on my <a href="https://github.com/VovaK1" target="_blank" class="inline-link">Github</a> account. I like this direction and want to continue to study and improve my knowledge.
+            </p>
+          </div>
+        </section>
+        <section class="section facts">
+
+          <ul class="facts__list">
+
+            <li class="fact skills">
+              <h3 class="fact__title">Skills</h3>
+              <ul class="fact__list" >
+                <li class="fact__item">HTML/HTML5</li>
+                <li class="fact__item">Methodology BEM</li>
+                <li class="fact__item">CSS/CSS3</li>
+                <li class="fact__item">Responsive layout</li>
+                <li class="fact__item">Vanilla JavaScript</li>
+                <li class="fact__item">Gulp, NPM, Webpack</li>
+                <li class="fact__item">Git & GitHub Pages</li>
+              </ul>
+            </li>
+
+            <li class="fact diplomas">
+              <h3 class="fact__title">Courses</h3>
+              <div class="fact__desc">
+                Passed 3 courses at excellent in
+                <a href="https://loftschool.com/" target="_blank" class="inline-link">Loftschool.</a>
+                My diplomas:
+              </div>
+              <ul class="fact__list fact__list--courses">
+                <li class="fact__item fact__item--courses">
+                  <a href="https://loftschool.com/diploma/WR1606408260/en/pdf" target="_blank" class="fact__link">
+                    Basics of HTML & CSS
+                  </a>
+                </li>
+                <li class="fact__item fact__item--courses">
+                  <a href="https://loftschool.com/diploma/HO1610988853/en/pdf" target="_blank" class="fact__link">
+                    Web Development for Beginners
+                  </a>
+                </li>
+                <li class="fact__item fact__item--courses">
+                  <a href="https://loftschool.com/diploma/YZ1611090519/en/pdf" target="_blank" class="fact__link">
+                    Complete JavaScript Course
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="fact">
+              <h3 class="fact__title">Education</h3>
+              <div class="fact__desc">
+                <p>
+                  Lesia Ukrainka East European National University, faculty “International Relations, Public Communications and Regional Studies” 2016 - 2021
+                </p>
+              </div>
+            </li>
+
+            <li class="fact">
+              <h3 class="fact__title">Languages</h3>
+              <ul class="fact__list">
+                <li class="fact__item">Ukrainian (Native)</li>
+                <li class="fact__item">Russian (Second language)</li>
+                <li class="fact__item">English (Upper Intermediate). I studied at the university in English</li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </section>
       </main>
-      <aside class="aside"></aside>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <a href="https://github.com/VovaK1" target="_blank" class="footer__github">
+          <svg class="footer__icon">
+            <use xlink:href="./images/sprite.svg#github"></use>
+          </svg>
+        </a>
+        <span class="footer__year">2021</span>
+        <a href="https://rs.school/js/" target="_blank" class="footer__github">
+          <img src="./images/rs-school.svg" alt="RS school" width="80" height="80">
+        </a>
+      </footer>
     </div>
   </div>
 </body>
