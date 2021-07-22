@@ -1,0 +1,9 @@
+.about {
+  margin-bottom: 30px;
+}
+
+.about__text {
+  padding-left: 50px;
+  border-left: 1px solid grey;
+}
+
